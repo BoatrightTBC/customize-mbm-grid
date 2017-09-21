@@ -4,7 +4,7 @@ function rick_boatright_add_info_to_grid( $content, $book_id ) {
 	
 	$content .= '<div class="overlay"><div class="text">';	
 	
-  $authors = MBDBMA()->authors->get_authors_by_book( $book_id );
+  	$authors = MBDBMA()->authors->get_authors_by_book( $book_id );
 	$author_names = '';
 	if ( $authors !== false ) {
 		$author_names =  mbdbma_get_author_names( $authors ); // author names will be comma-delimited string of author names
