@@ -1,0 +1,42 @@
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  width: 220px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.mbdb_grid_image {
+  height: 250px;
+  width: 200px;
+  position relative;
+}
+
+.mbdb_grid_image:hover .overlay {
+  opacity: 1;
+}
+.mbdb_grid_image:hover img {
+  opacity: 0;
+}
+.mbdb_grid_image img {
+  position:relative;
+  top: -200px;
+}
+
+.text {
+  color: white;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 0.8em;
+  height: 240px;
+  font-weight:  
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  }
